@@ -6,7 +6,7 @@
 #define ALGORITHM_ARENA_H
 
 
-class arena {
+class Arena {
 
 };
 
