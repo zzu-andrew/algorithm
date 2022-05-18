@@ -12,26 +12,20 @@ using namespace std;
 
 
 
+class B {
+public:
+    B() {
+        cout << "Construct B " << endl;
+    }
+};
+
+B b;
+
+
 int main(int argc, char* argv[]) {
 
-
-    std::string  name;
-
-
-    std::shared_ptr<std::string> strPtr(::new std::string);
-    int32_t dataSize = 0;
-    std::to_string(dataSize);
+    cout << "main Run" << endl;
 
 
-     int * const data = &dataSize;
-
-
-    char buf[120];
-    name = "data";
-    name.copy(buf, name.size());
-
-    printf("buf= %s\n", buf);
-
-    std::cout << name << std::endl;
     return 0;
 }
